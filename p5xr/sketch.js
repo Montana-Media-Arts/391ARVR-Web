@@ -4,12 +4,12 @@ function preload() {
 
 function setup()
 {
-  setVRBackgroundColor(0, 200, 0);
+  
 }
 
 function calculate() {
     // code that you want to run once each frame.
-  
+  setVRBackgroundColor(0, 255, 0);
  
 }
 
