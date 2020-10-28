@@ -4,7 +4,7 @@ function preload() {
 
 function setup()
 {
-  setVRBackgroundColor(100, 200, 150);
+  setVRBackgroundColor(0, 200, 0);
 }
 
 function calculate() {
@@ -15,6 +15,6 @@ function calculate() {
 
 function draw()
 {
-       fill(0,0,255);
-    circle(0,0,2);
+      // fill(0,0,255);
+    //circle(0,0,2);
 }
