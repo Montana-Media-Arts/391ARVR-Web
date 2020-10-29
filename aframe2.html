@@ -9,8 +9,8 @@
   <body>
     <a-scene>
       <a-entity id="mouseCursor" cursor="rayOrigin: mouse"></a-entity>
-      <a-sound src="https://cdn.aframe.io/basic-guide/audio/backgroundnoise.wav" autoplay="true"
-    position="-3 1 -4"></a-sound>
+      <a-entity id="river" geometry="primitive: plane" material="color: blue"
+          position="-10 0 0" sound="src: url(https://cdn.aframe.io/basic-guide/audio/backgroundnoise.wav); autoplay: true"></a-entity>
       <a-box src="https://i.imgur.com/mYmmbrp.jpg" position="0 2 -5" 
       rotation="0 45 45" scale="2 2 2"  
       animation__position="property: object3D.position.y; to: 2.2; dir: alternate; dur: 2000; loop: true"
